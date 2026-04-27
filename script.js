@@ -4,15 +4,15 @@
     { q: "Select the most appropriate SYNONYM of the word: 'PRUDENT'", a: "Wise", opts: ["Reckless", "Hasty", "Wise", "Foolish"] },
     
     
-    { q: "Select the most appropriate ANTONYM of the word: 'BENEVOLENT'", a: "Malevolent", opts: ["Kind", "Generous", "Malevolent", "Friendly"] },
+    { q: "Select the most appropriate ANTONYM of the word: 'BENEVOLENT'", a: "Malevolent", opts: ["Kind", "Generous", "Friendly", "Malevolent"] },
     { q: "Select the most appropriate ANTONYM of the word: 'AMBIGUOUS'", a: "Clear", opts: ["Vague", "Clear", "Obscure", "Uncertain"] },
 
     
-    { q: "A person who is unable to pay his debts.", a: "Insolvent", opts: ["Solvent", "Insolvent", "Lender", "Borrower"] },
-    { q: "A place where bees are kept.", a: "Apiary", opts: ["Aviary", "Aquarium", "Apiary", "Kennel"] },
+    { q: "A person who is unable to pay his debts.", a: "Insolvent", opts: ["Solvent", "Lender", "Insolvent", "Borrower"] },
+    { q: "A place where bees are kept.", a: "Apiary", opts: ["Aviary", "Aquarium", "Kennel", "Apiary"] },
 
   
-    { q: "Meaning of the idiom: 'To spill the beans'", a: "To reveal a secret", opts: ["To cook beans", "To reveal a secret", "To waste food", "To be clumsy"] },
+    { q: "Meaning of the idiom: 'To spill the beans'", a: "To reveal a secret", opts: ["To reveal a secret", "To cook beans", "To waste food", "To be clumsy"] },
     { q: "Meaning of the idiom: 'At the eleventh hour'", a: "At the last moment", opts: ["At 11:00 AM", "Too early", "At the last moment", "Suddenly"] },
 
    
@@ -167,7 +167,7 @@ function showFinalSummary() {
                 Your Total Score: <span style="color: #e67e22; font-weight: bold;">${finalScore} / ${qData.length}</span>
             </div>
             <h3 class="feedback-text" style="color: inherit;">${feedback}</h3>
-            <button onclick="location.reload()" class="retry-btn">Again Try</button>
+            <button onclick="location.reload()" class="retry-btn">Try Again</button>
         </div>
     `;
 }
